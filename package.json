@@ -1,5 +1,5 @@
 {
-  "name": "epic-games-free",
+  "name": "epic-free-games",
   "version": "1.0.4",
   "description": "Module to have free games from epic games store.",
   "types": "dist",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TechKaven/epic-games-free.git"
+    "url": "git+https://github.com/TechKaven/epic-free-games.git"
   },
   "devDependencies": {
     "typescript": "^4.3.4"
@@ -29,7 +29,7 @@
     "axios": "^0.21.1"
   },
   "bugs": {
-    "url": "https://github.com/TechKaven/epic-games-free/issues"
+    "url": "https://github.com/TechKaven/epic-free-games/issues"
   },
-  "homepage": "https://github.com/TechKaven/epic-games-free#readme"
+  "homepage": "https://github.com/TechKaven/epic-free-games#readme"
 }
