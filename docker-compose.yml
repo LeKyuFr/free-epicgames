@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  epic-games-free:
+    build: .
+    container_name: epic-games-free-app
+    environment:
+      - NODE_ENV=production
+    # Uncomment the lines below if you want to add a volume for logs
+    # volumes:
+    #   - ./logs:/app/logs
+    # Uncomment if you plan to add a web server later
+    # ports:
+    #   - "3000:3000"

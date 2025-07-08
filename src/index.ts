@@ -33,8 +33,8 @@ async function filter(data: AxiosResponse) {
                 id: game.id,
                 title: game.title,
                 description: game.description,
-                mainImage: game.keyImages[1].url ?? game.keyImages[1].url,
-                urlSlug: game.catalogNs.mappings[pageSlug]
+                mainImage: game.keyImages[1]?.url ?? game.keyImages[0]?.url,
+                urlSlug: game.catalogNs?.mappings?.[0]?.pageSlug ?? game.productSlug
             }
         })
     }
